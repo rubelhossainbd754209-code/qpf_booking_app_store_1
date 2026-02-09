@@ -1,0 +1,24 @@
+--- Database Diagnosis ---
+Checking form_options table...
+Total rows: 1000
+Sample row: {
+  "id": "f58ecc7e-121b-4414-9044-422b7c74aff8",
+  "type": "brand",
+  "value": "Apple",
+  "brand": null,
+  "device_type": null,
+  "store_id": null,
+  "created_at": "2026-02-09T07:08:15.752008+00:00",
+  "sort_order": 0
+}
+Columns available: id, type, value, brand, device_type, store_id, created_at, sort_order
+Apple row: {
+  "id": "f58ecc7e-121b-4414-9044-422b7c74aff8",
+  "type": "brand",
+  "value": "Apple",
+  "brand": null,
+  "device_type": null,
+  "store_id": null,
+  "created_at": "2026-02-09T07:08:15.752008+00:00",
+  "sort_order": 0
+}

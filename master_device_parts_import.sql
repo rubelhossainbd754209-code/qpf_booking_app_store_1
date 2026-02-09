@@ -1,8 +1,8 @@
 ﻿-- Import Apple Brand, Device Types, and Models
 
 -- 1. Insert Brand
-INSERT INTO form_options (type, value) 
-VALUES ('brand', 'Apple')
+INSERT INTO form_options (type, value, sort_order) 
+VALUES ('brand', 'Apple', 1)
 ON CONFLICT DO NOTHING;
 
 -- 2. Insert Device Types for Apple
@@ -263,8 +263,8 @@ ON CONFLICT DO NOTHING;
 -- Import Samsung Brand, Device Types, and Models
 
 -- 1. Insert Brand
-INSERT INTO form_options (type, value) 
-VALUES ('brand', 'Samsung')
+INSERT INTO form_options (type, value, sort_order) 
+VALUES ('brand', 'Samsung', 2)
 ON CONFLICT DO NOTHING;
 
 -- 2. Insert Device Types for Samsung
@@ -612,8 +612,8 @@ ON CONFLICT DO NOTHING;
 -- Import Motorola Brand, Device Types, and Models
 
 -- 1. Insert Brand
-INSERT INTO form_options (type, value) 
-VALUES ('brand', 'Motorola')
+INSERT INTO form_options (type, value, sort_order) 
+VALUES ('brand', 'Motorola', 6)
 ON CONFLICT DO NOTHING;
 
 -- 2. Insert Device Types for Motorola
@@ -901,8 +901,8 @@ ON CONFLICT DO NOTHING;
 -- Import Google Brand, Device Types, and Models
 
 -- 1. Insert Brand
-INSERT INTO form_options (type, value) 
-VALUES ('brand', 'Google')
+INSERT INTO form_options (type, value, sort_order) 
+VALUES ('brand', 'Google', 3)
 ON CONFLICT DO NOTHING;
 
 -- 2. Insert Device Types for Google
@@ -995,8 +995,8 @@ ON CONFLICT DO NOTHING;
 -- Import OnePlus Brand, Device Types, and Models
 
 -- 1. Insert Brand
-INSERT INTO form_options (type, value) 
-VALUES ('brand', 'OnePlus')
+INSERT INTO form_options (type, value, sort_order) 
+VALUES ('brand', 'OnePlus', 4)
 ON CONFLICT DO NOTHING;
 
 -- 2. Insert Device Types for OnePlus
@@ -1095,8 +1095,8 @@ ON CONFLICT DO NOTHING;
 -- Import Xiaomi Brand, Device Types, and Models
 
 -- 1. Insert Brand
-INSERT INTO form_options (type, value) 
-VALUES ('brand', 'Xiaomi')
+INSERT INTO form_options (type, value, sort_order) 
+VALUES ('brand', 'Xiaomi', 5)
 ON CONFLICT DO NOTHING;
 
 -- 2. Insert Device Types for Xiaomi

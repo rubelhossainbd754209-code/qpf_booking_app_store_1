@@ -33,7 +33,7 @@ async function getFormOptionsFromDB() {
     const { data: options, error } = await supabase
         .from('form_options')
         .select('*')
-        .order('id', { ascending: true });
+        .order('sort_order', { ascending: true });
 
     if (error) {
         console.error('Error fetching form options:', error);
